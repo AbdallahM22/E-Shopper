@@ -1,0 +1,29 @@
+.form {
+  width: 100%;
+  overflow: hidden;
+}
+.form .input {
+  width: calc(100% - 42px);
+  overflow: hidden;
+}
+.form input {
+  outline: none;
+  border: none;
+}
+.form input::placeholder {
+  color: rgb(153, 165, 194);
+}
+
+.form .input,
+.icon {
+  padding: 6px 12px;
+  border: 1px solid #edf1ff;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #d19c97;
+}

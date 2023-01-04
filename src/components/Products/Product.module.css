@@ -1,0 +1,38 @@
+.card {
+    border-color: #EEE !important;
+    border-radius: 0 !important;
+}
+.image {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.card:hover img {
+    transition: 0.5s;
+}
+.card:hover img {
+    transform: scale(1.2);
+}
+.body {
+    padding: 0 !important;
+}
+.text {
+    padding: 15px;
+    border: 1px solid #eee;
+    border: 1px 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+.actions {
+    padding: 15px;
+}
+.button:hover {
+
+}
+.button:hover,
+.icon {
+    color: #D19c97;
+}
+.icon {
+    margin-right: 5px;
+}

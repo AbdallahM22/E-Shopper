@@ -1,0 +1,15 @@
+.wrapper {
+  border: 1px solid #edf1ff;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.wrapper p {
+    color: #6F6F85;
+}
+.wrapper a img {
+    transition: 0.3s;
+}
+.wrapper:hover a img {
+    transform: scale(1.2);
+}

@@ -1,0 +1,28 @@
+.header {
+  background-color: #edf1ff;
+}
+.header ul li {
+  margin: 0 10px;
+}
+.header ul a {
+  color: #1c1c1c;
+}
+.help {
+  position: relative;
+}
+.help::before,
+.help::after {
+  content: "";
+  position: absolute;
+  background-color: #1c1c1c;
+  width: 1px;
+  height: 80%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.help::before {
+  left: -10px;
+}
+.help::after {
+    right: -10px;
+}

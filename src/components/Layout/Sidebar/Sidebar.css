@@ -1,0 +1,31 @@
+.content {
+    background-color: #eee;
+    width: 200px;
+    margin: 50px;
+}
+.content > button:focus,
+.content > button:active,
+.content > button:hover {
+    box-shadow: none;
+    border: none;
+    background-color: #ed9c95 !important;
+    outline: none;
+}
+.content > button {
+    background-color: #D19C97;
+    border-radius: 0;
+}
+/* .content button:hover {
+    background-color: #D19C97;
+} */
+.head {
+    font-size: 16px;
+}
+/* D19C97 */
+.dropdown:focus,
+.dropdown button:focus {
+    border: none;
+}
+.dropdown button {
+    padding: 0;
+}

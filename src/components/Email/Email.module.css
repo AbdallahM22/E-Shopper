@@ -1,0 +1,35 @@
+.wrapper {
+    background-color: #EDF1FF;
+    padding: 50px;
+    margin: 50px 0 0;
+}
+
+.paragraph {
+    color: #6f6f6f;
+    max-width: 500px;
+    margin: -38px auto 0;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 50px auto;
+}
+.form input[type="email"]{
+        width: calc(100% - 80.7px);
+        padding: 12px;
+        /* padding: 0; */
+        border: 0;
+        outline: 0;
+}
+.form input[type="submit"]{
+    /* width: 80%; */
+    background-color: #d19c97;
+    padding: 11px;
+}
+
+.form input[type="submit"]:hover {
+    color: white;
+}

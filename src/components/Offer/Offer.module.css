@@ -1,0 +1,36 @@
+.wrapper {
+    background-color: #EDF1FF;
+    position: relative;
+    padding: 40px;
+}
+
+.wrapper .para {
+    color: #D19C97;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrapper .button {
+    border-color: #D19C97 !important;
+    color: #D19C97 !important;
+}
+.wrapper .button:hover {
+    background-color: #D19C97 !important;
+    color: black !important;
+}
+.text {
+    position: relative;
+    z-index: 2;
+}
+.image {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    z-index: 0;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}

@@ -1,0 +1,12 @@
+.box {
+    border: 1px solid #edf1ff;
+    padding: 30px;
+}
+.box h5 {
+    width: 72px;
+}
+.icon {
+    color: #D19C97;
+    font-size: 30px;
+    margin-right: 10px;
+}

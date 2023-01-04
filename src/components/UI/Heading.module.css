@@ -1,0 +1,25 @@
+.heading {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px auto;
+    /* max-width: 300px; */
+    width: fit-content;
+}
+.heading::before,
+.heading::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.heading::before {
+    left: -60px;
+}
+.heading::after {
+    right: -60px;
+} 
+

@@ -1,0 +1,36 @@
+.form-content {
+  max-width: 700px;
+  border: 1px solid #edf1ff;
+}
+.heading {
+  background-color: #edf1ff;
+  padding: 20px;
+}
+
+.form > div {
+  padding: 5px 20px;
+}
+
+.form button {
+  margin: 0px 20px 20px;
+}
+
+.para {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.para button {
+  font-size: 14px;
+}
+
+.alert {
+  margin: 0px 20px;
+}
+
+.alertClass {
+  background-color: #f8d7da !important;
+}
+.alertClass:focus {
+  border-color: #f5bbc0;
+  box-shadow: 0 0 0 0.25rem #f8d7daab;
+}

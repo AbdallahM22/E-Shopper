@@ -1,0 +1,17 @@
+.icon-container {
+  padding: 6px 12px;
+  border: 1px solid #edf1ff;
+}
+.icon-container,
+.icon-container:hover {
+  text-decoration: none;
+  color: #212529;
+}
+.icon-container span {
+  margin-left: 6px;
+  font-size: 15px;
+
+}
+.icon {
+  color: #d19c97;
+}
